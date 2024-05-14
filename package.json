@@ -1,0 +1,26 @@
+{
+  "name": "proyecto-m3",
+  "version": "1.0.0",
+  "description": "Proyecto solución módulo 3, diplomado desarrollo de aplicaciones web (Back-end)",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "jest"
+  },
+  "author": "ALFONSO CANTILLO IBARRA",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcrypt-node": "^0.1.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.6.1",
+    "mongoose": "^8.3.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0",
+    "supertest": "^7.0.0"
+  }
+}
